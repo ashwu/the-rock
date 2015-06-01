@@ -8,17 +8,53 @@ $(document).ready(function(){
 			layoutMode: 'fitRows'
 		});
 
-		$('.button').on('click', function(){
+		$('.all').on('click', function(){
+			$container.isotope({
+				filter: '.item'
+			});
+		});
+
+		$('.greek').on('click', function(){
 			$container.isotope({
 				filter: '.greek'
 			});
 		});
 
-		$('.button').on('click', function(){
+		$('.activism').on('click', function(){
 			$container.isotope({
-				filter: '.greek'
+				filter: '.activism'
 			});
 		});
+
+		$('.cultural').on('click', function(){
+			$container.isotope({
+				filter: '.cultural'
+			});
+		});
+
+		$('.theater').on('click', function(){
+			$container.isotope({
+				filter: '.theater'
+			});
+		});
+
+		$('.philan').on('click', function(){
+			$container.isotope({
+				filter: '.philan'
+			});
+		});
+
+		$('.sports').on('click', function(){
+			$container.isotope({
+				filter: '.sports'
+			});
+		});
+
+		$('.misc').on('click', function(){
+			$container.isotope({
+				filter: '.misc'
+			});
+		});
+
 	});
-
 });
