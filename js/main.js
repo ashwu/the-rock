@@ -14,43 +14,43 @@ $(document).ready(function(){
 			});
 		});
 
-		$('.greek').on('click', function(){
+		$('.frat').on('click', function(){
 			$container.isotope({
 				filter: '.greek'
 			});
 		});
 
-		$('.activism').on('click', function(){
+		$('.act').on('click', function(){
 			$container.isotope({
 				filter: '.activism'
 			});
 		});
 
-		$('.cultural').on('click', function(){
+		$('.culture').on('click', function(){
 			$container.isotope({
 				filter: '.cultural'
 			});
 		});
 
-		$('.theater').on('click', function(){
+		$('.show').on('click', function(){
 			$container.isotope({
 				filter: '.theater'
 			});
 		});
 
-		$('.philan').on('click', function(){
+		$('.philanthropy').on('click', function(){
 			$container.isotope({
 				filter: '.philan'
 			});
 		});
 
-		$('.sports').on('click', function(){
+		$('.sport').on('click', function(){
 			$container.isotope({
 				filter: '.sports'
 			});
 		});
 
-		$('.misc').on('click', function(){
+		$('.miscs').on('click', function(){
 			$container.isotope({
 				filter: '.misc'
 			});

@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	bottom: 4em;
 }
 
 /*header*/
@@ -54,7 +55,7 @@ h2 {
 /*interactive*/
 
 #container {
-	margin: 0 0 0 50px;
+	margin: 0 0 100px 50px;
 }
 
 .instruction {
