@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-  $('.fancybox').fancybox();
   
   $(function() {
     // init Isotope
