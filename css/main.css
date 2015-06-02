@@ -169,9 +169,47 @@ footer a:hover{
 }
 
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1180px) {
 
-    body {
-        background-color:;
+    h1 {
+       font-size: 2.8em;
+    }
+
+    h2 {
+    	font-size: 1em;
     }
 }
+
+
+@media screen and (max-width: 970px) {
+	.btn {
+		font-size: 0.6em;
+		border: 2px solid black;
+		padding: 5px 10px 5px 10px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.story {
+		font-size: 0.85em;
+	}
+
+	.btn {
+		font-size: 0.6em;
+		border: 1.5px solid black;
+		padding: 5px 10px 5px 10px;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.element-item{
+		width: 20%;
+		padding: 0.2em 0.2em 0.2em 0;
+	}
+}
+
+
+
+
+
