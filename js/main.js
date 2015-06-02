@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  console.log("isotope loaded");
   
   $(function() {
     // init Isotope
