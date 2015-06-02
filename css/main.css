@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+}
+
+/*header*/
+
+.masthead {
+  	padding: .5em;
+	height: 2.25em;
+	background-color: #501f84;
+}
+
+.logo,
+.logo a,
+.nbn-logo {
+	height: 100%;
+}
+
+/*text*/
+
+#display {
+	margin: 50px 0 0 50px;
+	width: 70%;
+}
+
+h1 {
+	font-family: "Merriweather";
+	font-size: 3.5em;
+	font-weight: 900;
+	margin: 0;
+}
+
+.date {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 0.75em;
+	padding-bottom: 1em;
+	color: #454545;
+}
+
+h2 {
+	font-family: "Merriweather";
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-bottom: 1.3em;
+}
+
+.story {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.source {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 0.75em;
+	padding: 0;
+	margin: 0;
+	color: #454545;
+}
+
+/*interactive*/
+
+.container {
+	width: 85%;
+	margin: 0 0 100px 50px;
+}
+
+.instruction {
+	margin-bottom: 10px;
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 0.8em;
+	color: #454545;
+}
+
+.btn {
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 0.75em;
+	background-color: white;
+	border: 2px solid #454545;
+	padding: 12px;
+	margin-right: 10px;
+	outline: 0
+}
+
+.container img {
+	max-width: 100%;
+}
+
+#filters {
+	padding-top: 1em;
+}
+
+.isotope {
+	padding-bottom: 3%;
+}
+
+.element-item {
+	position: relative;
+	float: left;
+	width: 20%;
+	padding: 0.8em 0.8em 0.8em 0;
+	margin: 0;
+}
+
+.ui-group {
+	padding-bottom: 1em;
+}
+
+/*.ui-group .btn {
+		border: none;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		cursor: pointer;
+		padding: 10px 20px;
+		display: inline-block;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 300;
+		outline: none;
+		position: relative;
+		background-color: #f4f3f3;
+		color: gray;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+}*/
+
+.is-checked {
+		background-color: #5da3d5;
+		color: #f4f3f3;
+	}
