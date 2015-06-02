@@ -65,6 +65,11 @@ h2 {
 	color: #454545;
 }
 
+.big {
+	font-size: 1.3em;
+	padding-bottom: 0.8em;
+}
+
 .btn {
 	font-family: "Open Sans", "Helvetica", sans-serif;
 	font-weight: 700;
@@ -161,4 +166,12 @@ footer a:hover{
 .content-block {
 	margin: 0.25em 0 0.25em 0;
 	padding: 0 1.25em;
+}
+
+
+@media screen and (max-width: 965px) {
+
+    body {
+        background-color:;
+    }
 }
