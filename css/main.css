@@ -24,26 +24,26 @@ body {
 }
 
 h1 {
-	font-family: "Merriweather";
+	font-family: "Merriweather", "Georgia", serif;
 	font-size: 3.5em;
 	font-weight: 900;
 	margin: 0;
 }
 
 h2 {
-	font-family: "Merriweather";
+	font-family: "Merriweather", "Georgia", serif;
 	font-size: 1.2em;
 	font-weight: 300;
 	margin-bottom: 1.3em;
 }
 
 .story {
-	font-family: "Open Sans";
+	font-family: "Open Sans", "Helvetica", sans-serif;
 	font-weight: 300;
 }
 
 .source {
-	font-family: "Open Sans";
+	font-family: "Open Sans", "Helvetica", sans-serif;
 	font-weight: 300;
 	font-size: 0.75em;
 	padding: 0;
@@ -66,7 +66,7 @@ h2 {
 }
 
 .btn {
-	font-family: "Open Sans";
+	font-family: "Open Sans", "Helvetica", sans-serif;
 	font-weight: 700;
 	font-size: 0.75em;
 	background-color: white;
@@ -109,12 +109,12 @@ h2 {
 /*modal*/
 
 .thumbnail {
-	width: 50%;
+	width: 60%;
 	margin-bottom: 0.75em;
 }
 
 .remodal p {
-	font-family: "Open Sans";
+	font-family: "Open Sans", "Helvetica", sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	padding: 0;
